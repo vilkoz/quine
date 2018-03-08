@@ -1,4 +1,5 @@
-void func(void){char *c = "void func(void){char *c = %c%s%c; printf(c,34,c,34,10);}%c"; printf(c,34,c,34,10);}
+#include<stdio.h>
+void func(void){char *c = "#include<stdio.h>%cvoid func(void){char *c = %c%s%c; printf(c,10,34,c,34,10);}%c"; printf(c,10,34,c,34,10);}
 
 /* new comment */
 int main(void)
